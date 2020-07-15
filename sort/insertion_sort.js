@@ -22,3 +22,5 @@ const insertionSort = (arr) => {
 }
 sortArr = insertionSort(arr)
 console.log(sortArr)
+
+module.exports= insertionSort
