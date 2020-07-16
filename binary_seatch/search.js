@@ -86,8 +86,6 @@ const searchLastLesser = (arr, value) => {
     return -1
 }
 // 循环有序数组查找等于给定值的元素
-
-
 const search = (arr, value) => {
     let n = arr.length
     let low = 0
@@ -137,11 +135,11 @@ const findEqual = (arr,low,high, value) => {
     }
     return -1
 }
-
+let x = searchFirst(arr,5)
 // let x = searchLastLesser(arr, 35)
-// console.log(x)
+console.log(x)
 let arr1 = [3, 4, 5, 6, 4, 3, 2, 1]
 let arr2 = [33, 24, 15, 6, 15, 23, 32, 41]
 let arr3 = [4, 5, 6, 1, 2, 3]
-let y = search(arr2, 6)
-console.log(y)
+// let y = search(arr2, 6)
+// console.log(y)
